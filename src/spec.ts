@@ -1,7 +1,7 @@
 import {COLUMN, ROW, X, X2, Y, Y2} from './channel';
 import * as compositeMark from './compositemark';
 import {Config, OverlayConfig} from './config';
-import {Data} from './data';
+import {Data, InlineDataset} from './data';
 import {channelHasField, Encoding, EncodingWithFacet, isRanged} from './encoding';
 import * as vlEncoding from './encoding';
 import {FacetMapping} from './facet';
